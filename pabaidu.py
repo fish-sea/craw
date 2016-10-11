@@ -5,6 +5,9 @@ import re
 import urllib2
 from bs4 import BeautifulSoup as bs
 
+"""爬取百度首页的图片
+                   """
+
 url='http://image.baidu.com/'
 web=urllib2.urlopen(url)
 buf=web.read()
